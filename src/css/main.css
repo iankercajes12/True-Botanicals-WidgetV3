@@ -199,3 +199,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
+
+/*background issue*/
+.accordion-item:has([class*="reviews-widget"]), .accordion-item:has([class*="questions-and-answers"]),.accordion-item:has([class*="star-rating"]) {
+    background: #F3F2EF;
+}
+
+.accordion-item:has([class*="seo-page"]) {
+    background: #e4dfdd;
+}
